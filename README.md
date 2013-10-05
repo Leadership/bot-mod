@@ -57,7 +57,7 @@
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = t'htps://raw.github.com/Brutos/chatbotvm/master/.gitignore';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/Brutos/chatbotvm/master/.gitignore';
 
     settings.prototype.afkTime = 15 * 60 * 1000;
 
@@ -73,7 +73,7 @@
       },{
         interval: 9,
         offset: 0,
-        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/250915865033190/"
+        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/DTEplugdj/"
       }
     ];
 
@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me versão EDTBR 100%. ON!");
+    return API.sendChat("/me:BT versão ETDBR 100%. ON!");
   };
 
   populateUserData = function() {
@@ -683,7 +683,7 @@
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!LeaderShip';
+      this.command = '!Brutos';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -815,7 +815,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado pora sala ★ Electro Dub & Trap ★ ';
+      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
       return API.sendChat(msg);
     };
 
