@@ -63,7 +63,7 @@ chat-bot
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = 'https://raw.github.com/Leadership/bot-mod/';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/Leadership/bot-mod/master/README.md';
 
     settings.prototype.afkTime = 15 * 60 * 1000;
 
