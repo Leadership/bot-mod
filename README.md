@@ -79,7 +79,7 @@ chat-bot
       },{
         interval: 9,
         offset: 0,
-        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/DTEplugdj/"
+        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/250915865033190/"
       }
     ];
 
@@ -899,7 +899,7 @@ chat-bot
       var msg;
       msg = "  Participe do grupo e curta nossa pagina ";
       msg += "https://www.facebook.com/ETDPlugdj ";
-      msg += "https://www.facebook.com/groups/DTEplugdj/ ";
+      msg += "https://www.facebook.com/groups/250915865033190/ ";
       return API.sendChat(msg);
     };
 
