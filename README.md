@@ -5,7 +5,7 @@
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; },
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
-F
+
   settings = (function() {
     function settings() {
       this.implode = __bind(this.implode, this);
@@ -349,7 +349,7 @@ F
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me:BT versão ETDBR 100%. ON!");
+    return API.sendChat("/me: bot versão EDBR 100%. ON!");
   };
 
   populateUserData = function() {
@@ -683,7 +683,7 @@ F
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!LeaderShipr';
+      this.command = '!Brutos';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -815,7 +815,7 @@ F
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado pora sala  Electro Dub & Trap ';
+      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
       return API.sendChat(msg);
     };
 
@@ -891,8 +891,7 @@ F
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "  Participe do grupo e procure o nosso blog caso precise de ajuda
-      ";
+      msg = "  Participe do grupo e curta nossa pagina ";
       msg += "http://edtbrasil.blogspot.com.br/ ";
       msg += "https://www.facebook.com/groups/250915865033190/ ";
       return API.sendChat(msg);
