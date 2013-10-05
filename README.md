@@ -5,7 +5,7 @@
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; },
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
-
+F
   settings = (function() {
     function settings() {
       this.implode = __bind(this.implode, this);
@@ -57,7 +57,7 @@
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = 'https://raw.github.com/Brutos/chatbotvm/master/.gitignore';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/Leadership/bot-mod/master/README.md';
 
     settings.prototype.afkTime = 15 * 60 * 1000;
 
@@ -73,7 +73,7 @@
       },{
         interval: 9,
         offset: 0,
-        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/DTEplugdj/"
+        msg: "/em: Entre no nosso grupo do facebook e fique por dentro de todas as nossas atualizações: https://www.facebook.com/groups/250915865033190/"
       }
     ];
 
@@ -683,7 +683,7 @@
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!Brutos';
+      this.command = '!LeaderShipr';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -815,7 +815,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
+      msg = ' BOT criado pora sala  Electro Dub & Trap ';
       return API.sendChat(msg);
     };
 
@@ -891,8 +891,9 @@
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "  Participe do grupo e curta nossa pagina ";
-      msg += "https://www.facebook.com/ETDPlugdj ";
+      msg = "  Participe do grupo e procure o nosso blog caso precise de ajuda
+      ";
+      msg += "http://edtbrasil.blogspot.com.br/ ";
       msg += "https://www.facebook.com/groups/250915865033190/ ";
       return API.sendChat(msg);
     };
